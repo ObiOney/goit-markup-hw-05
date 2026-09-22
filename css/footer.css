@@ -75,3 +75,80 @@
 .footer-socials-icon {
     color: #F4F4FD;
 }
+
+/* Footer form */
+
+.footer-subscribe {
+    margin: 0 0 0 auto ;
+
+   
+}
+
+.footer-subscribe-caption {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.footer-form-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    width: 264px;
+    height: 40px;
+
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #fff;
+
+    
+    outline: transparent;
+    background-color: transparent;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border-color;
+}
+
+.footer-form-input:hover,
+.footer-form-input:focus {
+    border-color: #31d0aa;
+}
+
+.footer-form-input::placeholder {
+    font-size: 12px;
+    color: #fff;
+}
+
+.btn.btn-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    color: #fff;
+    box-shadow: none;
+    outline: transparent;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color;
+}
+
+.btn.btn-subscribe:hover,
+.btn.btn-subscribe:focus {
+    background-color: #31d0aa;;
+}
+
+
+.footer-btn-icon {
+
+    color: #fff;
+}
